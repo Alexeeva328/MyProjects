@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<users>
+  <Human Name="Nana">
+    <Patronym>Tomich</Patronym>
+    <LName>Patterson</LName>
+    <Email>Patterson@mail.ru</Email>
+  </Human>
+  <Human Name="Jina">
+    <Patronym>Rich</Patronym>
+    <LName>Dotcom</LName>
+    <Email>Rich.com</Email>
+  </Human>
+</users>

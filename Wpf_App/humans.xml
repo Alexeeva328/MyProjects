@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<users>
+  <Human Name="Bill">
+    <Patronym>Micros</Patronym>
+    <LName>Gatws</LName>
+    <Email>Billy@mail.ru</Email>
+  </Human>
+  <Human Name="Bonny">
+    <Patronym>Clasdf</Patronym>
+    <LName>Loaps</LName>
+    <Email>Lsod@mail.ru</Email>
+  </Human>
+  <Human Name="Mark Zuckerberg">
+    <Patronym>Facebook</Patronym>
+    <LName>30</LName>
+    <Email>30</Email>
+  </Human>
+  <Human Name="Nana">
+    <Patronym>Tomich</Patronym>
+    <LName>Patterson</LName>
+    <Email>Patterson@mail.ru</Email>
+  </Human>
+  <Human Name="Jina">
+    <Patronym>Rich</Patronym>
+    <LName>Dotcom</LName>
+    <Email>Rich.com</Email>
+  </Human>
+</users>

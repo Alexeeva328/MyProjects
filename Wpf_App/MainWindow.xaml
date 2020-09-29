@@ -1,0 +1,34 @@
+﻿<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="545.51" Width="1076.735"
+        DataContext="{Binding Source={StaticResource Locator}, Path=ViewModelName}">
+
+    <Grid Background="Lavender" Margin="0,0,-0.231,117.923">
+
+        <DataGrid x:Name="humansGrid" AutoGenerateColumns="True" ItemsSource="{Binding }" Margin="0,0,484,10" CanUserAddRows="false">
+        </DataGrid>
+
+        <Button x:Name="Add" Content="Add" IsDefault="True" Click="Add_Button_Click" Margin="731,279,166,59" Background="Aquamarine"/>
+        <Button x:Name="Delete" Content="Delete" IsDefault="True" Click="Delete_Button_Click" Margin="0,444,897,-106" Background="Aquamarine"/>
+        <Button x:Name="Save" Content="Save" IsDefault="True" Click="Save_Button_Click" Margin="713,444,184,-106" Background="Aquamarine"/>
+        <Button x:Name="Load" Content="Load" IsDefault="True" Click="Load_Button_Click" Margin="365,444,532,-106" Background="Aquamarine"/>
+        
+        <TextBox x:Name="NewName"  HorizontalAlignment="Left" Margin="643,55,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="33" Width="154"/>
+        <TextBox x:Name="NewPatr"  HorizontalAlignment="Left" Margin="643,109,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="33" Width="154"/>
+        <TextBox x:Name="NewLastName"  HorizontalAlignment="Left" Margin="643,155,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="33" Width="154"/>
+        <TextBox x:Name="NewEmailAdress"  HorizontalAlignment="Left" Margin="643,205,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="33" Width="154"/>
+        
+        <TextBlock HorizontalAlignment="Left" Margin="843,55,0,0" TextWrapping="Wrap" Text="Введите имя" VerticalAlignment="Top" Height="33" Width="154"/>
+        <TextBlock HorizontalAlignment="Left" Margin="843,109,0,0" TextWrapping="Wrap" Text="Введите отчество" VerticalAlignment="Top" Height="33" Width="154"/>
+        <TextBlock HorizontalAlignment="Left" Margin="843,155,0,0" TextWrapping="Wrap" Text="Введите фамилию" VerticalAlignment="Top" Height="33" Width="154"/>
+        <TextBlock HorizontalAlignment="Left" Margin="843,205,0,0" TextWrapping="Wrap" Text="Введите адрес электронной почты" VerticalAlignment="Top" Height="33" Width="154"/>
+
+
+
+    </Grid>
+</Window>
